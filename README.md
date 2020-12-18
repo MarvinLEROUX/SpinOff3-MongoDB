@@ -31,12 +31,58 @@ Auto-evaluation des rendus en 1-1 avec le Scrum Master
 
 ---
 
+# Accèder au Jupyter Notebook via GitBash :
+
+Copier le repository SpinOff3-MongoDB
+
+`git clone https://github.com/MarvinLEROUX/SpinOff3-MongoDB`
+
+Aller dans le repository Floupics
+
+`cd SpinOff3-MongoDB`
+
+Créer son environnement virtuel
+
+`python3 -m venv *NomDeEnvironement*`
+
+Activer son environnement (Windows)
+`*NomDeEnvironement*\Scripts\activate.bat`
+
+Activer son environnement (Mac OS)
+
+`source *NomDeEnvironement*/bin/activate`
+
+Installer jupyter lab
+
+`pip install jupyterlab`
+
+Accèder au scripts et lancer jupyter lab 
+
+`jupyter-lab`
+
+Installer PyMongo
+
+`pip install pymongo`
+
+Ne pas hésiter à utiliser la commande
+
+`ls -la`
+
+Pour afficher et vérifier le contenu de votre dossier
+
 Ressources :
 
-- Tuto mongodb : https://stph.scenari-community.org/bdd/0/co/intro.html ;
-- Installation mongodb : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition ;
-- Crud mongodb : https://docs.mongodb.com/manual/crud/ ;
-- Query mongodb : https://docs.mongodb.com/manual/tutorial/query-documents/ ;
-- Tuto pymongo : https://pymongo.readthedocs.io/en/stable/tutorial.html ;
-- Installation pymongo : https://pymongo.readthedocs.io/en/stable/installation.html ;
-- Concept mongodb : https://stph.scenari-community.org/bdd/0/co/intro.html ;
+- Tuto mongodb : 
+https://stph.scenari-community.org/bdd/0/co/intro.html 
+- Installation mongodb : 
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition 
+- Crud mongodb : 
+https://docs.mongodb.com/manual/crud/ 
+- Query mongodb : 
+https://docs.mongodb.com/manual/tutorial/query-documents/ 
+- Tuto pymongo : 
+https://pymongo.readthedocs.io/en/stable/tutorial.html 
+- Installation pymongo : 
+https://pymongo.readthedocs.io/en/stable/installation.html 
+- Concept mongodb : 
+https://stph.scenari-community.org/bdd/0/co/intro.html 
