@@ -46,6 +46,7 @@ Créer son environnement virtuel
 `python3 -m venv *NomDeEnvironement*`
 
 Activer son environnement (Windows)
+
 `*NomDeEnvironement*\Scripts\activate.bat`
 
 Activer son environnement (Mac OS)
